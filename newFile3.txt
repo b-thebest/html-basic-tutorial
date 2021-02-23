@@ -1,0 +1,1 @@
+This file is created to check amend command in commit to add file
