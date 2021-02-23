@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+<style>
+
+* {box-sizing: border-box;}
+
+::placeholder{
+    color: #451C51;
+    opacity: 40%;
+}
+
+div{
+    padding: 7px;
+}
+
+form{
+    text-align:center;
+}
+
+input{
+    width: 90%;
+}
+
+button{
+    width: 90%;
+    color: white;
+    background-color: #070337;
+    border-radius: 10px;
+    border-color: #350792;
+}
+
+.main{
+    background-color: white;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border-radius: 7%;
+}
+
+a:link{
+    color:gray;
+}
+a:hover {
+  color: #070337;
+}
+
+h2{
+    color:#070337;
+}
+.icon {
+   color: #070337;
+   text-align: right;
+}
+
+body{
+    background-color: #D3E0F3;
+}
+.forgot{
+    font-size: small;
+}
+
+</style>
+</head>
+<body>
+
+
+<center><img src="insta.png" width="15%" height="15%"></img></center><br>
+
+<div class="main">
+    <center><h2>Login Page<h2></center>
+
+    <form action="success.html">
+
+            <div class="input">
+                <i class="fa fa-user icon"></i>
+                <input type="text" placeholder=" Username" name="uname" required> 
+            </div>
+
+            <div class="input">
+                <i class="fa fa-envelope icon"></i> 
+                <input type="text" placeholder=" E-mail" name="email" required>
+            </div>
+        
+            <div class="input">
+                <i class="fa fa-key icon"></i> 
+                <input type="password" placeholder=" Password" name="psw" required>
+
+            </div>
+
+            <div class="input">
+                <a class="forgot" href="forgot.html">Forgot password</a>
+            </div>
+
+            <div class="input">
+                <button type="submit">Login</button>
+            </div>
+    </form>
+</div>
+
+</body>
+</html>
